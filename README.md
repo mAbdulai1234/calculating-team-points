@@ -1,2 +1,2 @@
-# calculating-team-points
-Overall points
+# Football Team Points Calculator in Go
+This Go program computes points for football teams based on their match outcomes. Each match result is represented as a string in the arr array, following the format "Team-Result", where Result can be "win," "draw," or "loss." The calculateTeamPoint function processes this array, splitting each string at the hyphen to extract the team name and the outcome. Points are awarded based on the result: 3 points for a win, 1 point for a draw, and 0 points for a loss. The program then displays each team alongside its calculated points. This implementation highlights the use of string manipulation, conditional logic, and array processing in Go to derive scores according to defined criteria.
