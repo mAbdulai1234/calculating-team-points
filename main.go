@@ -1,11 +1,3 @@
-/*
-Challenge 2: Calculate Team Points
-
-Write a code that takes an array of strings representing the results of football matches and calculates the total points for a team.
-Each string in the array will have the format
-"TeamA-TeamB scoreA-scoreB". A team gets 3 points for a win, 1 point for a draw, and 0 points for a loss.
-*/
-
 package main
 
 import (
